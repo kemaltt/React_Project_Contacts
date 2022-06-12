@@ -1,0 +1,56 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.contacts_container{
+  width: 50%;
+  margin: 0 auto;
+}
+.btn_container{
+position: sticky;
+top: 0;
+  display: flex;
+  justify-content: space-between;
+  margin:3vh 0;
+  gap: 20px;
+  padding: 0 15%;
+}
+.btn_container button{
+  padding: 10px;
+}
+.btn_container button:active{
+  background-color: blue;
+  color: #fff;
+}
+.title{
+
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.contact_item{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.contact_item button{
+  padding: 10px;
+  border: none;
+}
+.contact_item button:active{
+  background-color: red;
+  color: #fff;
+
+}
+img{
+  width: 70px;
+}
